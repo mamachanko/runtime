@@ -1,6 +1,6 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
-dies.dev v0.7.0 h1:BoaW/RtYHD/TcjzQ15BY/5H4C2p8TYwRvvgUHL1oNU0=
-dies.dev v0.7.0/go.mod h1:YFHw/gj/h7H/rFAYNLRs6oz825q5S1BYyUr9CvTR6wE=
+dies.dev v0.8.0 h1:vpCDf6MpN94q1O+jbFeZjfjmor9naTv+hmi91m3iEw8=
+dies.dev v0.8.0/go.mod h1:notbAs1nI6Ko+vIacIojolzpNVvqM9GhtU32ojtI1X0=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/benbjohnson/clock v1.1.0 h1:Q92kusRqC1XV2MjkWETPvjJVqKetz1OzxZB7mHJLju8=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
@@ -131,8 +131,8 @@ github.com/stretchr/testify v1.7.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO+kdMU+MU=
 github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKsk=
 github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
-github.com/vmware-labs/reconciler-runtime v0.11.1 h1:eU2bDUq4XWFmjICaKgnNieT8NhCicMqc5ST53R2QYug=
-github.com/vmware-labs/reconciler-runtime v0.11.1/go.mod h1:IrjEBBrCnBhvvQA4RT9l1J4vYbH5+QKF3O93XU/lj3c=
+github.com/vmware-labs/reconciler-runtime v0.12.0 h1:MTgJWMQ0y3LE4B/SBKXGPqRncNTXzfEpnzpTFedX9/0=
+github.com/vmware-labs/reconciler-runtime v0.12.0/go.mod h1:7vyDauuuK6Wd57ZPCY+CLwofdFc6eKOSFRnAkFBa5ik=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.2.1/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.3.5/go.mod h1:mwnBkeHKe2W/ZEtQ+71ViKU8L12m81fl3OWwC1Zlc8k=

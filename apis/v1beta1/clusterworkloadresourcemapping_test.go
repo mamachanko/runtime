@@ -419,13 +419,16 @@ func TestClusterWorkloadResourceMappingValidate(t *testing.T) {
 			}
 
 			expectedErr := c.expected.ToAggregate()
-			if diff := cmp.Diff(expectedErr, c.seed.ValidateCreate()); diff != "" {
+			_, gotErr := c.seed.ValidateCreate()
+			if diff := cmp.Diff(expectedErr, gotErr); diff != "" {
 				t.Errorf("ValidateCreate (-expected, +actual): %s", diff)
 			}
-			if diff := cmp.Diff(expectedErr, c.seed.ValidateUpdate(c.seed.DeepCopy())); diff != "" {
+			_, gotErr = c.seed.ValidateUpdate(c.seed.DeepCopy())
+			if diff := cmp.Diff(expectedErr, gotErr); diff != "" {
 				t.Errorf("ValidateCreate (-expected, +actual): %s", diff)
 			}
-			if diff := cmp.Diff(nil, c.seed.ValidateDelete()); diff != "" {
+			_, gotErr = c.seed.ValidateDelete()
+			if diff := cmp.Diff(nil, gotErr); diff != "" {
 				t.Errorf("ValidateDelete (-expected, +actual): %s", diff)
 			}
 		})
